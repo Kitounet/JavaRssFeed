@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.bbizet.javarssfeed.custom.CustomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/five_row"
+    android:layout_height="wrap_content"
+    android:padding="0dp"
+    >
+
+    <TextView
+        android:id="@+id/flux_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        tools:text="Five name"
+        />
+
+    <TextView
+        android:id="@+id/flux_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:layout_below="@+id/flux_title"
+        tools:text="Position"
+        />
+
+    <TextView
+        android:id="@+id/flux_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_below="@+id/flux_description"
+        tools:text="Position"
+        />
+
+
+
+</com.example.bbizet.javarssfeed.custom.CustomLayout>

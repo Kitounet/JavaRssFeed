@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.example.bbizet.javarssfeed.custom.NonSwipeableViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/tabs"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/darkgray">
+
+    </com.example.bbizet.javarssfeed.custom.NonSwipeableViewPager>
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        app:pstsTabPaddingLeftRight="1dp"
+        app:pstsShouldExpand="true"
+        app:pstsIndicatorHeight="3dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:pstsUnderlineColor="@color/tab_gray"
+        android:background="@color/tab_gray"
+        />
+
+
+</RelativeLayout>
